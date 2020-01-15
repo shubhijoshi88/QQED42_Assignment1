@@ -1,0 +1,4 @@
+
+CREATE DATABASE test;
+CREATE TABLE `user_data` (  `id` int(8) NOT NULL AUTO_INCREMENT,  `username` text NOT NULL,  `password` text NOT NULL,  PRIMARY KEY (`id`));
+INSERT INTO dtqr.user_data(username, password)VALUES('shubhijoshi', 'welcome');
